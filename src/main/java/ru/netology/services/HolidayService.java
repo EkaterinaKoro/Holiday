@@ -7,7 +7,7 @@ public class HolidayService {
         for (int month = 0; month < 12; month++) {
             if (balance >= threshold) { // если мы отдыхаем?
                 balance -= expenses;
-                balance /=3;
+                balance /= 3;
                 count++;
             } else {
                 // если мы работаем?
