@@ -3,7 +3,7 @@ package ru.netology.services;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-class HolidayTestService {
+class HolidayServiceTest {
 
     @Test
     public void testWithThreeMonthsVacation() {
